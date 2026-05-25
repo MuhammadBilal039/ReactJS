@@ -36,7 +36,7 @@ function App() {
         <button onClick={() => setSteps(steps + 1)}>+</button>
       </h3>
       <h3>
-        <button onClick={() => setCount(steps - 1)}>-</button>
+        <button onClick={() => setCount(count - steps)}>-</button>
         Counter: {count}
         <button onClick={() => setCount(count + steps)}>+</button>
       </h3>
